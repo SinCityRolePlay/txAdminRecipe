@@ -127,7 +127,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/qbcore-framework/qb-core
+    src: https://github.com/SinCityRolePlay/qb-core
 
   - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
@@ -155,7 +155,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-customs
     ref: main
-    src: https://github.com/qbcore-framework/qb-customs
+    src: https://github.com/SinCityRolePlay/qb-customs
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
@@ -170,7 +170,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
+    src: https://github.com/SinCityRolePlay/qb-houserobbery
     
   - action: download_github
     dest: ./resources/[qb]/qb-prison
@@ -203,9 +203,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-inventory
+    dest: ./resources/[qb]/lj-inventory
     ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
+    src: https://github.com/SinCityRolePlay/lj-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
@@ -215,12 +215,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-garages
     ref: main
-    src: https://github.com/qbcore-framework/qb-garages
+    src: https://github.com/SinCityRolePlay/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-ambulancejob
+    src: https://github.com/SinCityRolePlay/qb-ambulancejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclefailure
@@ -233,7 +233,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
+    src: https://github.com/SinCityRolePlay/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
@@ -248,17 +248,17 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
+    src: https://github.com/SinCityRolePlay/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
     ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
+    src: https://github.com/SinCityRolePlay/qb-traphouse
 
   - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
+    src: https://github.com/SinCityRolePlay/qb-apartments
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
@@ -273,12 +273,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-phone
     ref: main
-    src: https://github.com/qbcore-framework/qb-phone
+    src: https://github.com/SinCityRolePlay/qb-phone
 
   - action: download_github
     dest: ./resources/[qb]/qb-vineyard
     ref: main
-    src: https://github.com/qbcore-framework/qb-vineyard
+    src: https://github.com/SinCityRolePlay/qb-vineyard
 
   - action: download_github
     dest: ./resources/[qb]/qb-weapons
@@ -298,7 +298,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-towjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-towjob
+    src: https://github.com/SinCityRolePlay/qb-towjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-streetraces
@@ -308,7 +308,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
+    src: https://github.com/SinCityRolePlay/qb-storerobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
@@ -323,7 +323,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
+    src: https://github.com/SinCityRolePlay/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
@@ -358,22 +358,22 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
+    src: https://github.com/SinCityRolePlay/qb-taxijob
     
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
+    src: https://github.com/SinCityRolePlay/qb-busjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-newsjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-newsjob
+    src: https://github.com/SinCityRolePlay/qb-newsjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
     ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
+    src: https://github.com/SinCityRolePlay/qb-jewelery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -381,7 +381,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
+    src: https://github.com/SinCityRolePlay/qb-bankrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
@@ -421,12 +421,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-doorlock
     ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
+    src: https://github.com/SinCityRolePlay/qb-doorlock
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-garbagejob
+    src: https://github.com/SinCityRolePlay/qb-garbagejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-drugs
@@ -436,7 +436,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
-    src: https://github.com/qbcore-framework/qb-shops
+    src: https://github.com/SinCityRolePlay/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -461,7 +461,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-loading
     ref: main
-    src: https://github.com/qbcore-framework/qb-loading
+    src: https://github.com/SinCityRolePlay/qb-loading
 
   # Clean up
   - action: remove_path
