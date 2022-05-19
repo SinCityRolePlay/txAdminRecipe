@@ -49,7 +49,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
-    src: https://github.com/qbcore-framework/bob74_ipl
+    src: https://github.com/SinCityRolePlay/bob74_ipl
     
   - action: download_github
     dest: ./resources/[standalone]/safecracker
@@ -69,7 +69,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
     ref: master
-    src: https://github.com/qbcore-framework/interact-sound
+    src: https://github.com/SinCityRolePlay/interact-sound
     
   - action: download_github
     dest: ./resources/[standalone]/mhacking
@@ -446,6 +446,15 @@ tasks:
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/SinCityRolePlay/qb-loading
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+  - action: download_github
+    dest: ./resources/[SinCityDev]/[jobs]/qb-businesses
+    ref: main
+    src: https://github.com/SinCityRolePlay/qb-businesses
+
 
   # Clean up
   - action: remove_path
