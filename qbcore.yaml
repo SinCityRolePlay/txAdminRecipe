@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/qbcore-framework/txAdminRecipe
+    src: https://github.com/SinCityRolePlay/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -107,22 +107,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-radio
     
-    # MAPS
-  - action: download_github
-    dest: ./resources/[defaultmaps]/hospital_map
-    ref: main
-    src: https://github.com/qbcore-framework/hospital_map
-    
-  - action: download_github
-    dest: ./resources/[defaultmaps]/dealer_map
-    ref: main
-    src: https://github.com/qbcore-framework/dealer_map
-    
-  - action: download_github
-    dest: ./resources/[defaultmaps]/[prison_map]
-    ref: main
-    src: https://github.com/qbcore-framework/prison_map
-    
   # Downloading QBCore resources
   - action: download_github
     dest: ./resources/[qb]/qb-core
@@ -180,7 +164,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-atms
     ref: main
-    src: https://github.com/qbcore-framework/qb-atms
+    src: https://github.com/SinCityRolePlay/qb-atms
     
   - action: download_github
     dest: ./resources/[qb]/qb-hud
@@ -328,7 +312,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
+    src: https://github.com/SinCityRolePlay/qb-recyclejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-diving
@@ -338,17 +322,17 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
+    src: https://github.com/SinCityRolePlay/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-anticheat
     ref: main
-    src: https://github.com/qbcore-framework/qb-anticheat
+    src: https://github.com/SinCityRolePlay/qb-anticheat
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
+    src: https://github.com/SinCityRolePlay/qb-truckrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
@@ -411,7 +395,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-clothing
     ref: main
-    src: https://github.com/qbcore-framework/qb-clothing
+    src: https://github.com/SinCityRolePlay/qb-clothing
 
   - action: download_github
     dest: ./resources/[qb]/qb-hotdogjob
@@ -431,7 +415,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-drugs
     ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
+    src: https://github.com/SinCityRolePlay/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-shops
@@ -446,7 +430,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-interior
     ref: main
-    src: https://github.com/qbcore-framework/qb-interior
+    src: https://github.com/SinCityRolePlay/qb-interior
     
   - action: download_github
     dest: ./resources/[qb]/qb-menu
