@@ -450,17 +450,6 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[SinCityDev]/[jobs]/qb-businesses
-    ref: main
-    src: https://github.com/SinCityRolePlay/qb-businesses
-
-  - action: download_github
-    dest: ./resources/[SinCityDev]/[jobs]/qb-telco
-    ref: main
-    src: https://github.com/SinCityRolePlay/qb-telco
-
-
   # Clean up
   - action: remove_path
     path: ./tmp
