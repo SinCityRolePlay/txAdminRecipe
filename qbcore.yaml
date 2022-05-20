@@ -455,6 +455,11 @@ tasks:
     ref: main
     src: https://github.com/SinCityRolePlay/qb-businesses
 
+  - action: download_github
+    dest: ./resources/[SinCityDev]/[jobs]/qb-telco
+    ref: main
+    src: https://github.com/SinCityRolePlay/qb-telco
+
 
   # Clean up
   - action: remove_path
