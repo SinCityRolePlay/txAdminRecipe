@@ -295,9 +295,9 @@ tasks:
     src: https://github.com/SinCityRolePlay/qb-storerobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-spawn
+    dest: ./resources/[SinCityDev]/qb-spawn
     ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
+    src: https://github.com/SinCityRolePlay/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-skillbar
