@@ -449,6 +449,11 @@ tasks:
 
   - action: waste_time # prevent github throttling
     seconds: 10
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-printer
+    ref: main
+    src: https://github.com/SinCityRolePlay/qb-printer
 
   # Clean up
   - action: remove_path
