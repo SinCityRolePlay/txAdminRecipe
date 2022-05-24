@@ -106,6 +106,12 @@ tasks:
     dest: ./resources/[voice]/qb-radio
     ref: main
     src: https://github.com/qbcore-framework/qb-radio
+  
+  # MAPS
+  - action: download_github
+    dest: ./resources/[SinCityDev]/[ymaps]/[businesses]dealer_map
+    ref: main
+    src: https://github.com/SinCityRolePlay/dealer_map
     
   # Downloading QBCore resources
   - action: download_github
